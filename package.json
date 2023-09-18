@@ -1,0 +1,9 @@
+{
+  "name": "prettier-15428-repro",
+  "scripts": {
+    "format": "prettier --write . --ignore-path ./dir1/.prettierignore"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}
